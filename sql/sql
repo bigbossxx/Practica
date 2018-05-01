@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS users (
+    id INT(11) PRIMARY KEY NOT NULL,
+    username varchar(30) PRIMARY KEY NOT NULL,
+    pwd	varchar(100) NOT NULL,
+    email varchar(100) PRIMARY KEY NOT NULL,
+    birthdate date NOT NULL
+)
+
+CREATE TABLE IF NOT EXISTS post (
+    idpost INT(11) PRIMARY KEY NOT NULL,
+    post varchar(100)
+)
